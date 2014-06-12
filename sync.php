@@ -30,7 +30,6 @@ if ($ldapconn) {
 
 for ($i=0; $i<$info["count"]; $i++)
     {
-
         list($firstname, $lastname) = explode(" ", $info[$i]["displayname"][0], 2); // Split First name and Surname
         $mail = $info[$i]["mail"][0]; // Create Mail Variable (looks nicer)
 //Create Array

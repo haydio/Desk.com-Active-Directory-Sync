@@ -26,11 +26,7 @@ if ($ldapconn) {
     $justthese = array("displayName", "mail"); // Get Users Display Name and Email Address
 
     $sr=ldap_search($ldapconn, $dn, $filter, $justthese);
-
     $info = ldap_get_entries($ldapconn, $sr);
-
-//creating array
-//$users =array();
 
 for ($i=0; $i<$info["count"]; $i++)
     {

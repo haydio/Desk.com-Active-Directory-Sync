@@ -9,4 +9,5 @@ You can either start from the command line by running *php sync.php* or host usi
 ###Requirements
 * PHP
 * PHP-LDAP Extension
+* PHP-Curl Extension
 * PHP-CLI if running from command line
